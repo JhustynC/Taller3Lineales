@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def dibujar_armonicos_con_suma(n=4, p=np.pi):
-    t = np.linspace(0, 2*p, 1000)  # Vector de tiempo
+    t = np.linspace(-2*p, 2*p, 1000)  # Vector de tiempo
     suma_armonicos = np.zeros_like(t)  # Inicializar la suma de los armónicos
 
     plt.figure()
